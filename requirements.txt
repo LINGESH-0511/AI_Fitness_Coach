@@ -1,0 +1,20 @@
+## 📦 Requirements
+
+- Python 3.9 or higher
+- Webcam (for real-time posture detection)
+- Minimum 4 GB RAM (8 GB recommended)
+
+### Python Libraries
+streamlit  
+opencv-python  
+mediapipe  
+numpy  
+pyttsx3  
+
+### Installation & Run
+pip install -r requirements.txt  
+streamlit run app.py  
+
+### Notes
+- Ensure the webcam is not used by another application.
+- Proper lighting and full body visibility improve accuracy.
